@@ -36,3 +36,9 @@ The program can be interrupted using Ctrl+C.
 * in the c++ firmawe, the DHT11 pin is configured as \*\*GPIO4\*\* using the "SENSOR\_PIN" definition. You can change it to another suitable GPIO.
 * In the Python script, the device is searched for on \*\*COM3 and COM4\*\*, which are the port names assigned to the USB serial connections on my laptop. You can update the "ESP32\_VID" variable to match the serial port assigned to your computer.
 
+
+
+!!!!
+
+* The firmware assumes that the DHT11 is connected either as a module with a built-in pull-up resistor or as a standalone sensor with an external pull-up resistor on the data line. Ensure that the data-line voltage is compatible with the ESP32's 3.3 V GPIO.
+
