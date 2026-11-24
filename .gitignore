@@ -1,0 +1,13 @@
+
+firmware/build/
+firmware/managed_components/
+firmware/sdkconfig.old
+
+
+firmware/.vscode/
+firmware/.clangd
+
+
+__pycache__/
+*.pyc
+.venv/

@@ -1,0 +1,5 @@
+Czas badania: 253.77 sekund
+Minimalna temperatura: 26.2°C, Minimalna wilgotnosc: 42.0%
+Maksymalna temperatura: 26.2°C, Maksymalna wilgotnosc: 43.0%
+Srednia temperatura: 26.2°C
+Srednia wilgotnosc: 42.12%
